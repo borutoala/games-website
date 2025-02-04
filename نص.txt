@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع تنزيل الألعاب</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
+        header { background: #333; color: white; padding: 15px; font-size: 24px; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; margin-top: 20px; }
+        .game { background: white; width: 300px; margin: 15px; padding: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); text-align: center; }
+        .game img { width: 100%; border-radius: 8px; }
+        .game h2 { font-size: 20px; margin: 10px 0; }
+        .download-btn { display: inline-block; padding: 10px; background: #28a745; color: white; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header>🎮 موقع تنزيل الألعاب 🎮</header>
+    <div class="container">
+        <div class="game">
+            <img src="https://via.placeholder.com/300" alt="لعبة 1">
+            <h2>لعبة سباق السيارات</h2>
+            <p>لعبة سباق مثيرة تحتوي على خرائط متنوعة.</p>
+            <a href="#" class="download-btn">تحميل اللعبة</a>
+        </div>
+    </div>
+</body>
+</html>
